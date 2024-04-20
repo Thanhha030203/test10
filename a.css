@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+}
+
+.label {
+    cursor: pointer;
+    display: block; /* Hiển thị mỗi nhãn trên một dòng riêng */
+    margin-bottom: 5px; /* Khoảng cách giữa các nhãn */
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 0 5px;
+}
+
+.selected {
+    background-color:blue; /* Màu xanh */
+}
