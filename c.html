@@ -1,0 +1,22 @@
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
+<html>
+<head>
+    <title>Bảng dữ liệu</title>
+</head>
+<body>
+    <h2>Bảng dữ liệu</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <c:forEach var="column" items="${selectedColumns}">
+                    <th>${column}</th>
+                </c:forEach>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Hiển thị dữ liệu từ cơ sở dữ liệu với các cột đã chọn -->
+        </tbody>
+    </table>
+</body>
+</html>
